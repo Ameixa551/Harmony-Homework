@@ -1,0 +1,11 @@
+<div class="item">
+    <text class="title-style">{{title}}</text>
+    <text class="text-style" onclick="childClicked" focusable="true">点击这里查看隐藏内容</text>
+    <div if="{{showObj}}">
+        <div class="small-container">
+            <picker id="picker_text" type="text" value="{{textvalue}}" range="{{rangetext}}" class="pickertext" onchange="onChange">select</picker>
+        </div>
+        <image src="../images/bg-tv.jpg"></image>
+    </div>
+<!--    <text class="text-style" if="{{showObj}}">hello world</text>-->
+</div>

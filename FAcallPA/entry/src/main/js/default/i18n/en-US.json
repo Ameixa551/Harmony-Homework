@@ -1,0 +1,8 @@
+{
+  "strings": {
+    "hello": "Hello",
+    "world": "World",
+    "strings.input_number": "请输入数字",
+    "strings.calculate": "计算"
+  }
+}

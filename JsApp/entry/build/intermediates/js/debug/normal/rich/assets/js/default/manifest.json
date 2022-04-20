@@ -1,0 +1,17 @@
+{
+    "appID": "ohos.samples.jsapplication",
+    "appName": "$string:app_name",
+    "versionName": "2.0",
+    "versionCode": 2000000,
+    "minPlatformVersion": 4,
+    "pages": [
+        "pages/index/index"
+    ],
+    "deviceType": [
+        "phone"
+    ],
+    "window": {
+        "autoDesignWidth": false,
+        "designWidth": 720
+    }
+}

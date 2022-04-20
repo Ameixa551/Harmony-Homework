@@ -1,0 +1,11 @@
+<!--<div class="container">-->
+<!--    <text class="title">-->
+<!--        {{ $t('strings.hello') }} {{ title }}-->
+<!--    </text>-->
+<!--</div>-->
+<element name='comp' src='../../common/comp/comp.hml'></element>
+<div class="container">
+    <text>父组件：{{text}}</text>
+    <comp title="自定义组件" show-object="{{isShow}}" @event-type1="textClicked"></comp>
+    <text>选中项：{{selecttext}}</text>
+</div>
